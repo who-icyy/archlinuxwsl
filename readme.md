@@ -1,6 +1,3 @@
-To create a `README.md` for installing Arch Linux on Windows Subsystem for Linux (WSL) from your GitHub repository, here's a guide you could follow:
-
-```markdown
 # Arch Linux on WSL
 
 This repository provides the necessary steps to download and install Arch Linux on Windows Subsystem for Linux (WSL) from GitHub.
