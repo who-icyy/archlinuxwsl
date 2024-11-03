@@ -1,6 +1,3 @@
-Here's the README with added emojis to make it more visually engaging:
-
-```markdown
 # ❄️ Arch Linux on WSL
 
 This repository provides the necessary steps to download and install Arch Linux on Windows Subsystem for Linux (WSL) from GitHub.
