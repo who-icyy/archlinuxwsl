@@ -36,7 +36,12 @@ cd archlinux-wsl
 3. Run the installation script:
 
 ```bash
-wsl --import ArchLinux <path> archlinux-wsl.tar.gz
+wsl --import <Name> <path> archlinux-wsl.tar.gz 
+
+```
+### You can have as many of Instances by changing name
+
+```bash 
 # For example:
 wsl --import ArchLinux C:\WSL\ArchLinux archlinux-wsl.tar.gz
 ```
