@@ -14,7 +14,7 @@ This repository provides the necessary steps to download and install Arch Linux 
 
 If WSL is not enabled on your system, open PowerShell as Administrator and run:
 
-```powershell
+```bash
 wsl --install
 ```
 
@@ -25,11 +25,9 @@ After installation, restart your computer if prompted.
 Clone this repository to your local machine by running the following command in a terminal or PowerShell:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/archlinux-wsl.git
+git clone https://github.com/who-icyy/archlinuxwsl.git
 cd archlinux-wsl
 ```
-
-Replace `YOUR_USERNAME` with your actual GitHub username.
 
 ### 3. Run the Installation Script
 
@@ -38,7 +36,10 @@ Replace `YOUR_USERNAME` with your actual GitHub username.
 3. Run the installation script:
 
 ```bash
-wsl --import ArchLinux .\ArchLinux\ archlinux.tar.gz
+wsl --import ArchLinux <path> archlinux-wsl.tar.gz
+// for example :
+wsl --import ArchLinux C:\WSL\ArchLinux archlinux-wsl.tar.gz
+
 ```
 
 This command installs Arch Linux from the provided `archlinux.tar.gz` file.
@@ -102,5 +103,3 @@ This project is licensed under the MIT License.
 
 Enjoy using Arch Linux on WSL!
 ```
-
-Replace `YOUR_USERNAME` with your GitHub username. Let me know if you need further customization for this README!
