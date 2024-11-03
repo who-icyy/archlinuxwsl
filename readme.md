@@ -36,6 +36,14 @@ cd archlinux-wsl
 3. Run the installation script:
 
 ```bash
+
+./install.sh
+
+```
+
+# OR
+
+```bash
 wsl --import <Name> <path> archlinux-wsl.tar.gz 
 
 ```
