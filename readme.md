@@ -94,7 +94,14 @@ wsl --set-default ArchLinux
 
 To remove Arch Linux from WSL, run:
 
-```powershell
+```bash
+./uninstall.sh
+
+```
+
+# OR
+
+```bash
 wsl --unregister ArchLinux
 ```
 
